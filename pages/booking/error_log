@@ -1,0 +1,30 @@
+[25-Jul-2019 14:42:07 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/backend/controller/db_conn.php on line 7
+[25-Jul-2019 14:42:48 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/backend/controller/db_conn.php on line 7
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/backend/controller/db_conn.php on line 7
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 99
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 100
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 116
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 117
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 127
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 128
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 166
+[25-Jul-2019 14:44:32 Africa/Blantyre] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 166
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/backend/controller/db_conn.php on line 7
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 99
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 100
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 116
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 117
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 127
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 128
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 166
+[25-Jul-2019 14:51:20 Africa/Blantyre] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 166
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'webmaster'@'localhost' to database 'computicket_main_database' in /home/computicket/public_html/backend/controller/db_conn.php on line 7
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 99
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 100
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 116
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 117
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 127
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/computicket/public_html/pages/booking/index.php on line 128
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 166
+[25-Jul-2019 14:56:15 Africa/Blantyre] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/computicket/public_html/pages/booking/index.php on line 166
+[25-Jul-2019 14:57:50 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'webmaster'@'localhost' to database 'computicket_main_database' in /home/computicket/public_html/backend/controller/db_conn.php on line 7

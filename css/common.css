@@ -1,0 +1,107 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.form-control.flat-field,.btn.flat-field{
+  border-radius: 0;
+  margin-bottom:.8em;
+  margin-top:.8em;
+}
+.flat-field{
+  font-family: nuni-reg;
+}
+.form-control.flat-field{
+  font-size: 14px;
+}
+.btn.flat-field{
+  color:white;
+  font-weight: bold;
+}
+#top-container{
+    padding-top: 15%;
+}
+.nav-link{
+    font-family: mali-reg;
+}
+.active{
+    background: orangered;
+    font-weight: bold;
+    margin:0;
+}
+.nav-item .active .nav-link {
+    color: white;
+}
+.card-title{
+  font-family: nuni-reg;
+}
+#footer_titles{
+  font-family: electra;
+  color:white;
+  text-align: center;
+}
+#footer{
+  background: rgba(26, 26, 26);
+  padding:2em;
+}
+li,li a{
+  color:white;
+  list-style: none;
+}
+#copyright{
+  text-align: center;
+  color:white;
+  font-family: nuni-reg;
+  font-weight: lighter;
+}
+.ft{
+  color:white;
+  font-family:nuni-reg;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.img.img-thumbnail:hover{
+  cursor: pointer;
+  background:rgb(55, 67, 231);
+}
+#cname{
+  float:right;
+  margin-right: 4em;
+}
+.nav-brand{
+  color:white;
+}
+#normal-style-text{
+  color:black;
+  font-family: nuni-reg;
+  font-size: 16px;
+  text-align: center;
+}
+
+#tt1{
+  font-family: proxima-nova;
+  color:white;
+  background:rgb(0,0,0,.7);
+  padding:.4em;
+}
+#checkout_segment{
+  position:fixed;
+  z-index: 20;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #brand_txt{
+      display:block;
+    }
+    #brand_image{
+      display: none;
+    }
+    #cname{
+      float:none;
+    }
+
+    #checkout_segment{
+      position:relative;
+      padding:3%;
+    }
+}

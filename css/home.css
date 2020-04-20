@@ -1,0 +1,116 @@
+#topper{
+    background-image: url('../assets/img/airport.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: auto;
+    padding-bottom:2%;
+}
+#middle{
+  background-image: url('../assets/img/contact.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: auto;
+  padding-bottom:2%;
+}
+#main_title h1{
+    font-family: oswald;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    text-shadow: -8px 15px 5px black;
+}
+#main_title h2{
+    color:white;
+    text-align: center;
+    font-family: tt1;
+    font-size: 22px;
+}
+#side-part{
+    background: rgb(233, 230, 230);
+    padding-top:.5em;
+}
+#side-part h3{
+    font-family: jose;
+    text-align: center;
+}
+#h2_title{
+    color:rgd(0,0,0);
+    font-family: oswald;
+    border-bottom:2px solid black;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size:25px;
+}
+.showcase{
+    border:thick solid white;
+}
+.centered-text{
+    color:rgb(16, 107, 182);
+    font-family: nuni-reg;
+    text-align: center;
+    margin-bottom:2em;
+    font-weight: bold;
+}
+#girl{
+    padding-top:4%;
+}
+#bottomer{
+    padding:2em;
+    background:rgb(14, 136, 184);
+}
+.ftco-section-parallax{
+    padding:2em;
+    background: #2ebdc4;
+    background: -moz-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #2ebdc4), color-stop(100%, #68e5b2));
+    background: -webkit-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -o-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -ms-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -webkit-linear-gradient(315deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -o-linear-gradient(315deg, #2ebdc4 0%, #68e5b2 100%);
+    background: linear-gradient(135deg, #2ebdc4 0%, #68e5b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebdc4', endColorstr='#68e5b2', GradientType=1 );
+}
+
+#utilities{
+    /*background: rgb(50, 50, 226);*/
+    text-align: center;
+    padding:.4em;
+}
+#util_header{
+    font-family: mali-reg;
+    font-weight:bold;
+    background: rgb(50, 50, 226);
+    color: honeydew;
+    padding:.1em;
+    margin-bottom: .3em;
+}
+.utility_name{
+    font-family: oswald;
+    color: #2ebdc4;
+    text-align: center;
+}
+
+.quote{
+    font-weight: bold;
+    font-family: oswald;
+    font-size: 1.5em;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #girl{
+        padding-top:18%;
+    }
+    .fhts #h2_title{
+        margin-top:2em;
+    }
+}
+
+@media only screen and (min-device-width :  480px){
+    #main_title h1{
+        font-size:45px;
+    }
+}

@@ -1,0 +1,15 @@
+#upper{
+    padding:2em;
+    padding-top:10%;
+    background:rgb(238, 238, 238);
+    height: auto;
+}
+
+#recapture, #iuc, #country,#tvservice{
+    border:2px solid rgb(36, 117, 223);
+}
+.subtext{
+    text-align: center;
+    font-family: oswald;
+    color:orangered;
+}

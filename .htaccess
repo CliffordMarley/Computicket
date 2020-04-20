@@ -1,0 +1,23 @@
+
+RewriteEngine on
+
+# RewriteEngine On
+# RewriteCond %{SERVER_PORT}80
+# RewriteRule ^(.*)$
+# https://www.computicket.mw/$1[R,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} /(.*)/$
+
+RewriteRule ^ /%1 [R=301,L] <-- added slash here too, don't forget it
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^computicket\.mw$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.computicket\.mw$
+RewriteRule ^(.*)$ "https\:\/\/computicket\.mw\/pages\/home$1" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

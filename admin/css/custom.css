@@ -1,0 +1,146 @@
+body{
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+
+input{
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+.ui.image.car_display{
+    height:200px;
+    border:2px dashed black;
+}
+.page_tab_btns{
+    background-color: rgb(47, 47, 47);
+    color:white;
+}
+.page_tab_btns.tabbed{
+    background: rgb(54, 54, 236);
+    border-radius: 30px/30px;
+    font-weight: bold;
+}
+#footer{
+    background: gray;
+    color:white;
+    text-align: center;
+    font-family: nuni-reg;
+}
+.flat-field{
+    border-radius: 0;
+    font-weight: bolder;
+    font-family: nuni-reg;
+}
+#headline{
+    font-family: nuni-reg;
+    background: rgb(61, 61, 240);
+    color:white;
+    font-weight: bold;
+    padding-left:.2em;
+}
+.active{
+    background:gray;
+}
+#hh{
+    font-family:nuni-reg;
+    color:white;
+}
+#bar{
+    background: black;
+}
+
+button{
+    cursor: pointer;
+}
+.data{
+    font-family: mali-reg;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.ui.button.btt{
+    margin:.5em;
+    font-family: mali-reg;
+}
+
+label, option{
+    font-family: mali-reg;
+    font-weight:bold;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: rgb(54, 54, 236);
+}
+.green{
+    background:green;
+}
+#ss{
+    font-family: mali-reg;
+    font-weight: bold;
+    font-size: 10px;
+    color:white;
+}
+.ui.statictic.label{
+    font-family: nuni-reg;
+}
+.list-group-item.list-group-item-action.bg-dark{
+    font-family: nuni-reg;
+    font-weight: bold;
+    color:white;
+}
+.list-group-item.list-group-item-action.bg-light{
+    font-family: nuni-reg;
+    font-weight: bold;
+    color:black;
+}
+#table_area{
+    position: absolute;
+    max-height: 127%;
+    overflow-y: scroll;
+
+}
+#rental_list_body tr td{
+    font-weight: bold;
+    font-family: nuni-reg;
+    font-size: 11px;
+}
+
+
+/* Scrollbar styling */
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+} */

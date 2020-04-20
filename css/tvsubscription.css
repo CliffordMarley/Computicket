@@ -1,0 +1,112 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+#upper-section{
+	height: auto;
+	padding-top: 10%;
+    padding:5%;
+	background-image: linear-gradient(to right top, #1a0248, #221460, #292579,
+	 #2e3792, #2f4aad, #4a5dbd, #6171cc, #7886dc, #9fa2e5, #c2c0ed, #e1dff6, #ffffff);
+    transform:rotate(2deg);
+    top:-5;
+    left:-2%;
+}
+#middle{
+	margin:0;
+	margin-top:2%;
+	padding:5%;
+	background-image: linear-gradient(to left bottom, #ffffff, #dfdcfb, #babaf7, #8f9af4, #547df0);
+}
+#child-normal{
+    transform:rotate(-2deg);
+    text-align: center;
+    color: white;
+	padding-top:.4em;
+}
+#tv-titles{
+	font-family: oswald;
+	font-variant: small-caps;
+    text-align: center;
+    font-size: 38px;
+    /* text-decoration: underline; */
+}
+.h2 ul li{
+    list-style: circle;
+    text-align: left;
+}
+#text-desc{
+	font-family: 
+	nuni-reg;
+	font-size: 22px;
+}
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #upper-section{
+        padding-top:18%;
+        transform:rotate(0deg);
+    }
+    #child-normal{
+        transform:rotate(0deg);
+    }
+    #tv-titles{
+        font-size: 22px;
+    }
+}
+
+.fa {
+	width: 60px;
+	display: block;
+	text-align: center;
+	color:#990000;
+	font:normal 45px 'FontAwesome';
+	line-height:60px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.fa-angle-double-down:before {content: "\f107";}
+.icon.chevron.down:before {content: "\f107";}
+
+.bounce {
+	bottom: 30px;
+	left: 50% ;
+	width: 60px;
+    height: 60px ;
+    cursor: pointer;
+	margin-left:-30px;
+	border: 2px solid #ffffff;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	border-radius:50%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    text-align: center;
+}
+ 
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}

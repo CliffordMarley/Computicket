@@ -1,0 +1,6 @@
+[25-Jul-2019 20:08:50 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/admin/php_scripts/db_conn.php on line 7
+[25-Jul-2019 23:30:23 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/admin/php_scripts/db_conn.php on line 7
+[28-Jul-2019 21:59:01 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/admin/php_scripts/db_conn.php on line 7
+[29-Jul-2019 09:24:04 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/admin/php_scripts/db_conn.php on line 7
+[29-Jul-2019 09:24:26 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/admin/php_scripts/db_conn.php on line 7
+[29-Jul-2019 16:21:22 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/admin/php_scripts/db_conn.php on line 7

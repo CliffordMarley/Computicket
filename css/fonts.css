@@ -1,0 +1,77 @@
+
+@font-face{
+  font-family:"lato";
+  src:url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+@font-face{
+  font-family:"mont";
+  src:url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face{
+  font-family:"squada";
+  src:url("../fonts/Squada_One/SquadaOne-Regular.ttf");
+}
+@font-face{
+  font-family:"oswald";
+  src:url("../fonts/Oswald/Oswald-Bold.ttf");
+}
+@font-face{
+    font-family:"mali-reg";
+    src:url("../fonts/Mali/Mali-Regular.ttf");
+  }
+  @font-face{
+    font-family:"nuni-reg";
+    src:url("../fonts/Nunito/Nunito-Light.ttf");
+  }
+@font-face{
+    font-family:"electra";
+    src:url("../fonts/electr.ttf");
+  }
+  @font-face{
+    font-family:"era";
+    src:url("../fonts/eras.ttf");
+  }
+
+@font-face{
+  font-family:"federo";
+  src:url("../fonts/Federo/Federo-Regular.ttf");
+}/*  GOOGLE FONTS */
+
+@font-face{
+    font-family:"tt1";
+    src:url("../fonts/Amatic_SC/AmaticSC-Bold.ttf");
+  }
+  @font-face{
+    font-family:"jose";
+    src:url("../fonts/Josefin_Sans/JosefinSans-Bold.ttf");
+  }
+  
+  
+  @font-face{
+    font-family:"nuni-xbold";
+    src:url("../fonts/Nunito/Nunito-Bold.ttf");
+  }
+  @font-face{
+    font-family:"lobster";
+    src:url("../fonts/Lobster/Lobster-Regular.ttf");
+  }
+  
+  
+  
+  @font-face{
+    font-family:"orbitron";
+    src:url("../fonts/Orbitron/Orbitron-Bold.ttf");
+  }
+  @font-face{
+    font-family:"bungee";
+    src:url("../fonts/Bungee/Bungee-Regular.ttf");
+  }
+  @font-face{
+    font-family:"bowlyOne";
+    src:url("../fonts/Bowlby_One/BowlbyOne-Regular.ttf");
+  }
+  @font-face{
+    font-family:"proxima-nova";
+    src:url("../fonts/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf");
+  }

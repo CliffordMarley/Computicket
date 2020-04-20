@@ -1,0 +1,1 @@
+[25-Jul-2019 14:42:37 Africa/Blantyre] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/computicket/public_html/backend/controller/db_conn.php on line 7

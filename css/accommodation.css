@@ -1,0 +1,137 @@
+
+#upper{
+    top:10%;
+    background-image: url('../assets/img/mm.jpg');
+    background-repeat:repeat-x;
+    padding:9em;
+    padding-top: 10%;
+    background-position: center top;
+    height: auto;
+    padding-bottom:0;
+}
+.title{
+    font-family: nuni-reg;
+    font-weight: bold;
+    text-align: center;
+}
+#middle{
+    background-image: url('../assets/img/im\ \(3\).jpg');
+    background-repeat:repeat-x;
+    background-position: center top;
+    padding:0;
+    padding-top: 5%;
+    padding-bottom:2%;
+    height: auto;
+}
+#hotel_side h1{
+    color:white;
+    font-family: orbitron;
+}
+#hotel_side h3{
+    color:white;
+    font-family: nuni-reg;
+}
+#hotel_side{
+    background: rgb(29, 28, 28,.6);
+}
+#searchtron{
+    background: rgb(0,0,0,.8);
+    height: auto;
+}
+label{
+    color:white;
+    font-family: mali-reg;
+    font-weight: bold;
+}
+#dest_search_from{
+    border-top: thick solid white;
+    padding-top:5%;
+    border-bottom:thick solid white;
+}
+.title{
+    color:white;
+    font-family: proxima-nova;
+}
+.promotion{
+    padding-top:2%;
+    margin:.6;
+    height:auto;
+}
+.promotion h2, .promotion h3{
+    color:white;
+    font-family: jose;
+}
+#large_text{
+    font-size: 80px;
+    font-family: impact;
+}
+#promo_side{
+    background: rgb(224, 132, 11);
+    padding:2em;
+    padding-bottom:1em;
+}
+#promo_side h1{
+    font-family: mali-reg;
+    text-align: center;
+    color:white;
+}
+.img_cust{
+    border:thick solid white;
+}
+.table{
+    background:black;
+}
+tbody{
+    background:rgb(255, 255, 255);
+}
+.table{
+    color:white;
+}
+tbody tr td{
+    color:black;
+}
+.table thead th{
+    font-family: nuni-reg;
+    font-variant: small-caps;
+
+}
+.hotel_name{
+    font-family: lato;
+}
+.location{
+    
+    font-weight: lighter;
+    font-family: nuni-reg;
+}
+.location a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   #upper{
+       padding:4%;
+       margin-top: 20%;
+   }
+   #large_text{
+    font-size: 20px;
+    font-family: impact;
+}
+#searchtron{
+    background: rgb(0,0,0);
+}
+}

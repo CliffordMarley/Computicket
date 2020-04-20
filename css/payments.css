@@ -1,0 +1,32 @@
+body{
+    background:  rgb(22, 22, 22);
+    height: 100%;;
+}
+#payme{
+    background:  rgb(22, 22, 22,.7);
+    height: auto;
+    padding-top:10%;
+    font-family:nuni-reg;
+}
+
+#payment_pad{
+    padding:1.5em;
+}
+
+#statement{
+    color:rgb(177, 175, 175);
+    font-family: nuni-reg;
+    text-align: center;
+    font-weight: bold;
+    padding: 10%;
+}
+.emphasisi{
+    color:white;
+}
+.payment_images{
+    padding-top:1.3em;
+}
+label{
+    color:white;
+    font-family: mali-reg;
+}

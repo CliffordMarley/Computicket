@@ -1,0 +1,93 @@
+#upper{
+    background: url("../assets/img/snap.jpg");
+    background-position:center top;
+    background-repeat:repeat-x;
+    height: auto;
+    padding-top:11%;
+    background-size: content;
+}
+#b_s_results{
+    /* background: url("../assets/img/buses/ll3.jpg");
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-repeat:repeat-x;
+    height: 100%; */
+}
+#buses_title{
+    font-family: "oswald";
+    color:orangered;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* border-bottom: 2px solid white; */
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-shadow: 5px 8px 8px white;
+}
+#book_tabs_right, #book_tabs_left{
+    color:white;
+    font-family: nuni-reg;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background: black;
+    padding-left: 2em;
+    padding-right:2em;
+}
+.active{
+    background:orangered;
+}
+#book_tabs_left{
+    border-top-left-radius: 40%;
+    border-bottom-left-radius:40%;
+}
+#book_tabs_right{
+    border-top-right-radius: 40%;
+    border-bottom-right-radius:40%;
+}
+#s_r_txt{
+    text-align: center;
+    font-family: mali-reg;
+}
+.time{
+    color:orangered;
+    font-family: mali-reg;
+}
+.bus{
+    color:rgb(48, 10, 153);
+    font-family:proxima-nova;
+}
+.fare{
+    font-family:jose;
+}
+.midrow{
+    font-family:orbitron;
+}
+#confirm_title{
+    font-family: nuni-reg;
+    color:white;
+    text-align: center;
+}
+#price_preview_statement{
+    font-family: nuni-reg;
+    font-size: 15px;
+    padding:.4em;
+    color:black;
+}
+@media only screen and (max-device-width : 575) {
+    #buses_title{
+        font-size: 16px;
+    }
+    #ticket_logo{
+        display:none;
+    }
+    #upper{
+        background: url("../assets/img/snap2.jpg");
+    }
+   
+}
+@media (max-width: 992px) {
+    #upper{
+        padding-top:15%;
+    }
+}

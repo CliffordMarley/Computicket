@@ -1,0 +1,79 @@
+body{
+    padding-top:12%;
+}
+#football_title_header h1.display-4{
+    text-align: center;
+    color:red;
+    border:thick solid red;
+    border-radius: 10px/10px;
+    padding:5%;
+    font-size:38px;
+    font-family: oswald;
+    margin-bottom:5%;
+}
+#football_tag_line{
+    font-family: nuni-reg;
+    font-weight: bold;
+    color:green;
+    text-align: center;
+}
+#football_tag_line #extract{
+    font-size: 15px;
+    color:white;
+    background: green;
+    font-family: "Yu Gothic";
+    font-weight: lighter;
+    padding:2%;
+    text-align: center;
+    margin:auto;
+}
+
+.slider_tag{
+    font-family: oswald;
+}
+#signup_newsletter{
+    width:100%;
+    padding:4%;
+    height:auto;
+    background:rgba(0,0,0,.7);
+}
+#signup_newsletter h3{
+    color:white;
+    font-family: oswald;
+    font-size: 25px;
+    font-weight: bold;
+}
+#signup_newsletter p{
+    color:white;
+    font-size: 18px;
+    font-family: nuni-reg;
+}
+.col-12 label{
+    color:white;
+    font-family: mali-reg;
+    font-weight: bold;
+}
+.press{
+    background-color:rgba(0,0,0,.7);
+}
+table thead th{
+    background: rgb(211, 3, 3);
+    color:white;
+    font-family: mali-reg;
+    font-weight:bold;
+}
+table tbody tr td{
+    font-family: nuni-reg;
+    font-size: 12px;
+    cursor:pointer;
+}
+table tbody tr:hover{
+    background: rgb(211, 3, 3);
+    color:white;
+}
+
+@media only screen and (max-device-width : 480px) {
+    body{
+        margin-top:15%;
+    }
+}
